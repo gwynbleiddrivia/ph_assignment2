@@ -1,0 +1,139 @@
+/*-----------------
+General Style
+----------------------*/
+body{
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Work Sans', sans-serif;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/*-----------------
+Ribbon Style
+----------------------*/
+.ribbon{
+	display: flex;
+	gap: 470px;
+	background-color: #FF900E1A;
+}
+.ribbon p{
+	width: 300px;
+	height: 50px;
+	color: #131313;
+	font-weight: 700;
+	font-size: 45px;
+	margin-left: 230px;
+	margin-top: 50px;
+	margin-bottom: 102px;
+}
+.bar{
+	margin-top: 60px;
+	margin-right: 240px;
+}
+.bar ul{
+	font-size: 18px;
+	display: flex;
+	gap: 70px;
+	padding: 0px;
+	margin: 0px;
+}
+.bar ul li{
+	list-style-type: none;	
+}
+.bar ul li a{
+	text-decoration: none;
+	color: #424242;
+}
+/*-----------------
+Banner Style
+----------------------*/
+.banner{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #FF900E1A;
+}
+.banner h1{
+	color: #131313;
+	font-size: 64px;
+	font-weight: 700px;
+	margin: 0px;
+}
+.banner p{
+	color: #727272;
+	font-size: 16px;
+	font-weight: 400px;
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+.banner button{
+	margin-top: 15px;
+	margin-bottom: 50px;
+	background-color: #FF900E;
+	padding: 20px 25px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #FFFFFF;
+	border: 0px solid #FF900E;
+	border-radius: 8px;
+}
+.banner img{
+	margin-left: 230px;
+	margin-right: 250px;
+	margin-bottom: 40px;
+}
+/*-----------------
+Grid-Quick Style
+----------------------*/
+.grid-quick{
+	display: flex;
+	gap: 70px;
+	margin-top: 90px;
+}
+.grid-img{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 24px;
+	grid-row-gap: 24px;
+}
+.quick{
+	margin-top: 290px;
+	display: flex;
+	flex-direction: column;
+}
+.quick h1{
+	font-size: 45px;
+	margin: 0px;
+}
+.quick .quick-list{
+	color: #727272;
+}
+.quick .of-our{
+	color: #131313;
+}
+.quick .feat{
+	color: #FF900E;
+}
+.quick p{
+	margin-top: 24px;
+	margin-bottom: 32px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #727272;
+	width: 530px;
+	height: 75px;
+}
+.quick button{
+	width: 180px;
+	background-color: #FF900E;
+	padding: 20px 25px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #FFFFFF;
+	border: 0px solid #FF900E;
+	border-radius: 8px;
+}
