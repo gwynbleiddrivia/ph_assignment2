@@ -80,6 +80,10 @@ Banner Style
 	border: 0px solid #FF900E;
 	border-radius: 8px;
 }
+.banner button a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
 .banner img{
 	margin-left: 230px;
 	margin-right: 250px;
@@ -136,6 +140,10 @@ Grid-Quick Style
 	color: #FFFFFF;
 	border: 0px solid #FF900E;
 	border-radius: 8px;
+}
+.quick button a{
+	text-decoration: none;
+	color: #FFFFFF;
 }
 /*-----------------
 Features Style
@@ -343,4 +351,70 @@ Features Style
 /*-----------------
  Extra Section Style
 ----------------------*/
+.extra{
+	background-color: #FF900E1A;
+	background-size: contain;
+	border: 0px solid #FF900E1A;
+	width: 1500px;
+	height: 350px;
+	border-radius: 8px;
+	margin-bottom: 200px;
+} 
+.extra:hover p{
+	animation:shak 0.5s ease 0s 5 normal;
+	}
 
+@keyframes shak{
+0% { transform: translate(1px,1px) rotate(-4deg);}
+25% { transform: translate(1px,-2px) rotate(3deg);}
+50% { transform: translate(-2px,1px) rotate(-4deg);}
+75% { transform: translate(1px,-2px) rotate(3deg);}
+100% { transform: translate(-2px,1px) rotate(-4deg);}
+}
+
+.extra p{
+	font-size: 45px;
+	font-weight: 700;
+	color: #727272;
+	text-align: center;
+	margin: 0px;
+}
+.extra .login-form{
+	margin-left: 720px;
+	margin-top: 100px;
+}
+.extra .login-form input[type="email"]{
+	border: 1px solid #727272;
+	border-radius: 8px;
+	padding: 8px 20px;
+	margin-bottom: 10px;
+}
+
+.extra .login-form input[type="password"]{
+	border: 1px solid #727272;
+	border-radius: 8px;
+	padding: 8px 20px;
+	margin-bottom: 10px;
+}
+.extra .login-form input[type="submit"]{
+	background-color: #FF900E;
+	padding: 10px 15px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #FFFFFF;
+	border: 0px solid #FF900E;
+	border-radius: 8px;
+	margin-top: 20px;
+}
+
+/*
+.facts-img:hover{
+	animation: shake 0.5s ease 0s infinite alternate;
+}
+@keyframes shake{
+0% { transform: translate(1px,1px) rotate(-4deg);}
+25% { transform: translate(1px,-2px) rotate(3deg);}
+50% { transform: translate(-2px,1px) rotate(-4deg);}
+75% { transform: translate(1px,-2px) rotate(3deg);}
+100% { transform: translate(-2px,1px) rotate(-4deg);}
+*/
