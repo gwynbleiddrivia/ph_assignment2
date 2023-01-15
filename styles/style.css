@@ -492,6 +492,60 @@ Features
 }
 .img-button div{
 	transform: none;
+	margin-bottom: 40px;
+}
+
+/*-----------
+Facts
+-------------*/
+.facts{
+	width: 100%;
+}
+.facts-details{
+	margin: 0 auto;
+}
+.facts-details p{
+	width: 100%;
+	margin-bottom: 20px;;
+}
+.facts-row{
+	flex-direction: column;
+	gap:75px;
+}
+/*-----------
+Sponsors
+-------------*/
+.sponsors{
+	width: 100%;
+}
+.sponsor-title p{
+	width: 100%;
+}
+.sponsor-icons{
+	flex-direction: column;
+	gap: 65px;
+	align-items: center;
+}
+
+/*-----------
+Extra
+-------------*/
+.extra{
+	width: 100%;
+}
+.extra .login-form{
+	margin: 0 50%;
+}
+/*-----------
+Footer
+-------------*/
+.footer{
+	width: 100%;
+}
+.footer-text{
+	width: 100%;
+	margin: 0;
+	padding: 25px 20px;
 }
 }
 
