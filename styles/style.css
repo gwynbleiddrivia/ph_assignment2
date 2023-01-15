@@ -340,7 +340,7 @@ Features Style
 	font-weight: 400;
 	background-color: #FFF4E7;
 	padding: 38px 300px;
-	margin: 130px 240px 216px 240px;
+	margin: 50px 240px 50px 240px;
 	width: 840px;
 	height: 23px;
 	border: 0px solid #FFF4E7;
@@ -358,7 +358,8 @@ Features Style
 	width: 1500px;
 	height: 350px;
 	border-radius: 8px;
-	margin-bottom: 200px;
+	margin-bottom: 50px;
+	margin-top: 130px;
 } 
 .extra:hover p{
 	animation:shak 0.5s ease 0s 5 normal;
@@ -406,15 +407,95 @@ Features Style
 	border-radius: 8px;
 	margin-top: 20px;
 }
+@media screen and (max-width: 688px){
+/*-----------
+Ribbon
+------------*/
+	.ribbon{
+		flex-direction: column;
+		gap: 0px;
+		align-items: center;
+	}	
+	.ribbon p{
+		width: 100%;
+		margin: 0px 0px 0px 200px;
+	}
+	.bar ul{
+		flex-direction: column;
+		align-items: center;
+		margin: 0 100px;
+		width: 100%;
+		gap: 30px;
+		margin-bottom: 50px;
+	}
 
-/*
-.facts-img:hover{
-	animation: shake 0.5s ease 0s infinite alternate;
+
+/*-----------
+Banner
+------------*/
+.banner{
+	width: 100%;
 }
-@keyframes shake{
-0% { transform: translate(1px,1px) rotate(-4deg);}
-25% { transform: translate(1px,-2px) rotate(3deg);}
-50% { transform: translate(-2px,1px) rotate(-4deg);}
-75% { transform: translate(1px,-2px) rotate(3deg);}
-100% { transform: translate(-2px,1px) rotate(-4deg);}
-*/
+.banner h1{
+	text-align: center;
+}
+.banner img{
+	width: 100%;
+	margin: 0 auto;
+}
+/*-----------
+Grid-Quick
+-------------*/
+.grid-quick{
+	flex-direction: column;
+	gap: 20px;
+	}
+.grid-img{
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	align-items: center;
+}
+.grid-img img{
+	width: 100%
+}
+.grid-quick .quick{
+	width: 100%;
+	margin: 0 auto;
+	align-items: center;
+}
+.grid-quick .quick p{
+	width: 100%;
+}
+/*-----------
+Features
+-------------*/
+.features{
+	flex-direction: column;
+	gap: 20px;
+	width: 100%;
+}
+.feat-details{
+	margin: 0;
+}
+.feat-title{
+	gap: 5px;
+}
+.features .feat-details p{
+	width: 100%;
+}
+.img-button{
+	margin: 0 auto;
+}
+.img-button img{
+	width: 100%;
+}
+.img-button div{
+	transform: none;
+}
+}
+
+
+
+
+
