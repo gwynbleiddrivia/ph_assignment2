@@ -221,3 +221,70 @@ Features Style
 	font-size: 25px;
 	font-weight: 500;
 }
+/*-----------------
+ Facts Style
+----------------------*/
+.facts{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.facts-details{
+	margin-right: 1260px;
+	margin-left: 400px;
+}
+.facts-details h2{
+	font-size: 45px;
+	font-weight: 700;
+	color: #131313;
+	margin: 0px;
+	width: 260px;
+	height: 50px;
+}
+.facts-details p{
+	margin-top: 24px;
+	margin-bottom: 100px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #727272;
+	width: 540px;
+	height: 50px;
+
+}
+.facts-row{
+	display:flex;
+	gap: 125px;
+}
+.facts-img{
+	padding: 45px 35px 60px 35px;
+	border: 1px solid #FF900E;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 7px;
+}
+.facts-img:hover{
+	animation: shake 0.5s ease 0s infinite alternate;
+}
+@keyframes shake{
+0% { transform: translate(1px,1px) rotate(-4deg);}
+25% { transform: translate(1px,-2px) rotate(3deg);}
+50% { transform: translate(-2px,1px) rotate(-4deg);}
+75% { transform: translate(1px,-2px) rotate(3deg);}
+100% { transform: translate(-2px,1px) rotate(-4deg);}
+}
+.facts-img img{
+	width: 45px;
+	height: 45px;
+}
+.facts-img .facts-number{
+	font-size: 45px;
+	font-weight: 600;
+	color: #424242;
+}
+.facts-img .facts-name{
+	font-size: 20px;
+	font-weight: 600;
+	color: #727272;
+}
