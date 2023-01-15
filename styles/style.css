@@ -25,7 +25,7 @@ Ribbon Style
 	color: #131313;
 	font-weight: 700;
 	font-size: 45px;
-	margin-left: 230px;
+	margin-left: 255px;
 	margin-top: 50px;
 	margin-bottom: 102px;
 }
@@ -323,3 +323,24 @@ Features Style
 	height: 50px;
 	filter: grayscale(100%);
 }
+/*-----------------
+ Footer Style
+----------------------*/
+.footer-text{
+	color: #424242;
+	font-size: 20px;
+	font-weight: 400;
+	background-color: #FFF4E7;
+	padding: 38px 300px;
+	margin: 130px 240px 216px 240px;
+	width: 840px;
+	height: 23px;
+	border: 0px solid #FFF4E7;
+	border-radius: 8px;
+	text-align: center;
+
+}
+/*-----------------
+ Extra Section Style
+----------------------*/
+
