@@ -288,3 +288,38 @@ Features Style
 	font-weight: 600;
 	color: #727272;
 }
+/*-----------------
+ Sponsors Style
+----------------------*/
+.sponsor-title{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+}
+.sponsor-title h2{
+	margin-top: 180px;
+	margin-bottom: 0px;
+	font-size: 45px;
+	font-weight: 700;
+	color: #131313;
+}
+.sponsor-title p{
+	margin-top: 0px;
+	margin-bottom: 50px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #727272;
+	width: 540px;
+	height: 50px;
+	text-align: center;
+}	
+.sponsor-icons{
+	display: flex;
+	gap: 155px;
+}
+.sponsor-icons img{
+	width: 165px;
+	height: 50px;
+	filter: grayscale(100%);
+}
